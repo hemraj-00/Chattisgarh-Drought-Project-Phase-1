@@ -1,0 +1,749 @@
+body {
+  background-color: #fdf5f2;
+  font-family: Krylon, sans-serif;
+  color: #1e3b68;
+  font-size: 1vw;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+h1 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-decoration: none;
+}
+
+h2 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: Krylon, sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: Krylon, sans-serif;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h4 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: Krylon, sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: Krylon, sans-serif;
+  font-weight: 400;
+}
+
+h6 {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: Krylon, sans-serif;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 0rem;
+  font-family: Inter, sans-serif;
+  color: #4c74af;
+  font-size: 0.9em;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.select-district-heading {
+  font-family: Inter, sans-serif;
+  color: #4c74af;
+  font-size: 1.15em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.hide {
+  display: none;
+}
+
+.map__district {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: auto;
+  z-index: 2;
+  width: 10em;
+  margin-top: 0em;
+  margin-left: 0em;
+}
+
+.map__district.koriya {
+  width: 9.9em;
+  margin-top: 1.9em;
+  margin-left: 11.4em;
+}
+
+.map__district.surajpur {
+  width: 7.5em;
+  margin-top: 2.45em;
+  margin-left: 19.2em;
+}
+
+.map__district.balrampur {
+  width: 12em;
+  margin-top: 0.4em;
+  margin-left: 20.7em;
+}
+
+.map__district.pendra {
+  width: 4.75em;
+  margin-top: 9.3em;
+  margin-left: 13em;
+}
+
+.map__district.korba {
+  width: 8.1em;
+  margin-top: 10.3em;
+  margin-left: 16.6em;
+}
+
+.map__district.surguja {
+  width: 8em;
+  margin-top: 7.85em;
+  margin-left: 22.1em;
+}
+
+.map__district.jashpur {
+  width: 8.3em;
+  margin-top: 8.15em;
+  margin-left: 27.05em;
+}
+
+.map__district.raigarh {
+  width: 7.5em;
+  margin-top: 12.4em;
+  margin-left: 23.1em;
+}
+
+.map__district.champa {
+  width: 7.9em;
+  margin-top: 17.1em;
+  margin-left: 18.1em;
+}
+
+.map__district.bilaspur {
+  width: 6.6em;
+  margin-top: 14.4em;
+  margin-left: 13.1em;
+}
+
+.map__district.mungoli {
+  width: 5.3em;
+  margin-top: 13.6em;
+  margin-left: 10.7em;
+}
+
+.map__district.kabirdham {
+  width: 6.7em;
+  margin-top: 15em;
+  margin-left: 5em;
+}
+
+.map__district.bemotara {
+  width: 7.3em;
+  margin-top: 19.6em;
+  margin-left: 7.7em;
+}
+
+.map__district.baloda_bazar {
+  width: 10.7em;
+  margin-top: 21em;
+  margin-left: 12.8em;
+}
+
+.map__district.mahasamund {
+  width: 10.5em;
+  margin-top: 23.6em;
+  margin-left: 15.3em;
+}
+
+.map__district.gariaband {
+  width: 7.9em;
+  margin-top: 27.9em;
+  margin-left: 13.5em;
+}
+
+.map__district.raipur {
+  width: 5.7em;
+  margin-top: 23.5em;
+  margin-left: 11em;
+}
+
+.map__district.durg {
+  width: 4.4em;
+  margin-top: 24.1em;
+  margin-left: 7.6em;
+}
+
+.map__district.rajnandgaon {
+  width: 7em;
+  margin-top: 21.5em;
+  margin-left: 1.4em;
+}
+
+.map__district.balod {
+  width: 6em;
+  margin-top: 28.7em;
+  margin-left: 4.9em;
+}
+
+.map__district.dhamtari {
+  width: 6em;
+  margin-top: 28.9em;
+  margin-left: 10.1em;
+}
+
+.map__district.kanker {
+  width: 12.1em;
+  margin-top: 33em;
+  margin-left: 1.3em;
+}
+
+.map__district.kondagaon {
+  width: 6.6em;
+  margin-top: 36.2em;
+  margin-left: 9.2em;
+}
+
+.map__district.narayanpur {
+  width: 8.2em;
+  margin-top: 38.3em;
+  margin-left: 2.9em;
+}
+
+.map__district.bijapur {
+  width: 8.5em;
+  margin-top: 43.3em;
+  margin-left: 0.2em;
+}
+
+.map__district.dantewada {
+  width: 6.5em;
+  margin-top: 45.2em;
+  margin-left: 8em;
+}
+
+.map__district.bastar {
+  width: 7em;
+  margin-top: 42.2em;
+  margin-left: 10.1em;
+}
+
+.map__district.sukma {
+  width: 9.9em;
+  margin-top: 48.9em;
+  margin-left: 5.5em;
+}
+
+.section {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  width: 100%;
+}
+
+.section.is--map-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 98vh;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.section.is--nav {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  z-index: 2000;
+}
+
+.hero__gradient {
+  position: fixed;
+  left: auto;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 2;
+  display: block;
+  width: 200em;
+  height: 200em;
+  margin-right: -135.7em;
+  margin-bottom: -133.1em;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #fccfff, rgba(92, 49, 255, 0) 69%);
+  opacity: 0.9;
+}
+
+.hero__gradient.is--other {
+  width: 160em;
+  height: 160em;
+  margin-right: -40.6em;
+  margin-bottom: -133.7em;
+  background-image: radial-gradient(circle farthest-corner at 50% 50%, #fccfff, rgba(248, 140, 212, 0) 69%);
+  opacity: 0.73;
+}
+
+.map__embed {
+  width: 100%;
+}
+
+.nav__logo-img {
+  width: 13em;
+  -webkit-transition: font-size 250ms cubic-bezier(.445, .05, .55, .95);
+  transition: font-size 250ms cubic-bezier(.445, .05, .55, .95);
+}
+
+.nav__link-text {
+  -webkit-transition: font-size 250ms cubic-bezier(.445, .05, .55, .95);
+  transition: font-size 250ms cubic-bezier(.445, .05, .55, .95);
+  color: #1e3b68;
+  font-size: 1.5em;
+}
+
+.nav__link-text:hover {
+  font-size: 1.4em;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5em;
+}
+
+.container.is--nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 3.5em;
+  padding-bottom: 0em;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.container.is--map {
+  display: -ms-grid;
+  display: grid;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1rem;
+  grid-row-gap: 1rem;
+  -ms-grid-columns: 0.5fr 1fr 0.75fr;
+  grid-template-columns: 0.5fr 1fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.main-embed {
+  display: none;
+  width: 100%;
+  height: 2em;
+  min-height: 2em;
+}
+
+.nav__logo-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.map__img {
+  position: relative;
+  z-index: 1;
+  width: 36em;
+  opacity: 0;
+}
+
+.html {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+}
+
+.map {
+  position: relative;
+  z-index: 2;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: rotate(0deg) scale(0.975);
+  -ms-transform: rotate(0deg) scale(0.975);
+  transform: rotate(0deg) scale(0.975);
+  -webkit-transition: font-size 600ms cubic-bezier(.39, .575, .565, 1), -webkit-transform 600ms ease-in-out;
+  transition: font-size 600ms cubic-bezier(.39, .575, .565, 1), -webkit-transform 600ms ease-in-out;
+  transition: transform 600ms ease-in-out, font-size 600ms cubic-bezier(.39, .575, .565, 1);
+  transition: transform 600ms ease-in-out, font-size 600ms cubic-bezier(.39, .575, .565, 1), -webkit-transform 600ms ease-in-out;
+  font-size: 0.75vw;
+}
+
+.map:hover {
+  -webkit-transform: rotate(-5deg) scale(1.015);
+  -ms-transform: rotate(-5deg) scale(1.015);
+  transform: rotate(-5deg) scale(1.015);
+}
+
+.large_drought {
+  margin-bottom: 0em;
+}
+
+.italic {
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.about-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: auto;
+  margin-bottom: 3em;
+  text-align: left;
+  grid-column-gap: 0.75rem;
+  grid-row-gap: 0rem;
+}
+
+.district_name {
+  margin-bottom: 0em;
+  font-size: 3em;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.main-content-block {
+  margin-bottom: 3em;
+  margin-left: 0em;
+  flex-direction: column;
+  text-align: left;
+}
+
+.number-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-column-gap: 0.75rem;
+  grid-row-gap: 0rem;
+}
+
+.number-wrapper.total {
+  border-top: 1px solid rgba(30, 59, 104, 0.1);
+  margin-top: 2rem;
+}
+
+.number-heading {
+  font-family: Inter, sans-serif;
+  color: #4c74af;
+  font-size: 1.15em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.mild_drought {
+  margin-bottom: 0em;
+}
+
+.number-block {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 2em;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 1em;
+  grid-row-gap: 1em;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+}
+
+.total_drought {
+  margin-bottom: 0.5rem;
+  font-size: 5em;
+}
+
+.github-link {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.github-link:hover {
+  color: #db5000;
+}
+
+.district-name_block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 0.5rem;
+}
+
+.about-heading {
+  font-size: 3em;
+  line-height: 1;
+}
+
+@media screen and (max-width: 991px) {
+  .to-do_item {
+    padding-right: 2rem;
+  }
+
+  .partners_component {
+    margin-bottom: 0rem;
+  }
+
+  .container {
+    padding-right: 3em;
+    padding-left: 3em;
+  }
+
+  .map:hover {
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .section.is--map-section {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .container.is--map {
+    overflow: scroll;
+  }
+
+  .nav__menu {
+    display: none;
+  }
+
+  .nav__logo-text {
+    width: 9em;
+  }
+
+  .about-text-wrap {
+    line-height: 1.4;
+  }
+
+  .number-wrapper {
+    margin-top: 0em;
+    grid-column-gap: 0.25rem;
+    grid-row-gap: 0.25rem;
+  }
+
+  .number-wrapper.total {
+    margin-top: 2em;
+    padding-top: 2em;
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+  }
+
+  .about-heading {
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  p {
+    font-size: 3em;
+  }
+
+  .select-district-heading {
+    font-size: 3em;
+  }
+
+  .section.is--map-section {
+    height: auto;
+  }
+
+  .nav__logo-img {
+    font-size: 2.5em;
+  }
+
+  .container.is--map {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 24em;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .map {
+    font-size: 1vh;
+  }
+
+  .large_drought {
+    font-size: 8em;
+  }
+
+  .nav__logo-text {
+    font-size: 1.5em;
+  }
+
+
+  .district_name {
+    font-size: 8em;
+  }
+
+  .number-wrapper {
+    grid-column-gap: 0rem;
+    grid-row-gap: 0rem;
+  }
+
+  .number-wrapper.total {
+    margin-top: 8em;
+    padding-top: 8em;
+  }
+
+  .number-heading {
+    font-size: 3em;
+  }
+
+  .severe_drought {
+    font-size: 8em;
+  }
+
+  .mild_drought {
+    font-size: 8em;
+  }
+
+  .disastrous_drought {
+    font-size: 8em;
+  }
+
+  .number-block {
+    grid-column-gap: 3em;
+    grid-row-gap: 6em;
+  }
+
+  .total_drought {
+    font-size: 14em;
+  }
+
+  .about-heading {
+    font-size: 6em;
+  }
+}
+
+@font-face {
+  font-family: 'Krylon';
+  src: url('../fonts/Krylon-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('../images/') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
