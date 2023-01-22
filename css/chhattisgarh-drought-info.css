@@ -537,8 +537,8 @@ label {
 }
 
 .total_drought {
-  margin-bottom: 0.5rem;
-  font-size: 5em;
+  margin-bottom: 0rem;
+  font-size: 3.75rem;
 }
 
 .github-link {
@@ -571,17 +571,10 @@ label {
 }
 
 @media screen and (max-width: 991px) {
-  .to-do_item {
-    padding-right: 2rem;
-  }
-
-  .partners_component {
-    margin-bottom: 0rem;
-  }
 
   .container {
-    padding-right: 3em;
-    padding-left: 3em;
+    padding-right: 1.125rem;
+    padding-left: 1.125rem;
   }
 
   .map:hover {
