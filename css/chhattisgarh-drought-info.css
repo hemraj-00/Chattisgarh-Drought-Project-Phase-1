@@ -49,6 +49,12 @@ h6 {
   font-weight: 400;
 }
 
+a:-webkit-any-link {
+  text-decoration-line: none;
+  color: -webkit-link;
+  cursor: pointer;
+}
+
 p {
   margin-bottom: 0rem;
   font-family: Inter, sans-serif;
@@ -543,6 +549,7 @@ label {
 
 .github-link {
   font-weight: 600;
+  color: #4c74af;
   cursor: pointer;
 }
 
@@ -643,6 +650,7 @@ label {
 }
 
 @media screen and (max-width: 479px) {
+
   p {
     font-size: 3em;
   }
@@ -653,6 +661,7 @@ label {
 
   .section.is--map-section {
     height: auto;
+    width: 100%;
   }
 
   .nav__logo-img {
@@ -664,9 +673,19 @@ label {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
     padding-top: 24em;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .about-block{
+    padding-top: 2rem;
+    order: 3;
+  }
+
+  .district-name_block{
+    margin-bottom: 1rem;
   }
 
   .map {
@@ -681,7 +700,6 @@ label {
     font-size: 1.5em;
   }
 
-
   .district_name {
     font-size: 8em;
   }
@@ -692,8 +710,8 @@ label {
   }
 
   .number-wrapper.total {
-    margin-top: 8em;
-    padding-top: 8em;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   .number-heading {
@@ -719,11 +737,18 @@ label {
 
   .total_drought {
     font-size: 14em;
+    line-height: 1;
   }
 
   .about-heading {
     font-size: 6em;
   }
+
+  .main-content-block{
+    margin-top: 2rem;
+    margin-right: auto;
+  }
+
 }
 
 @font-face {
