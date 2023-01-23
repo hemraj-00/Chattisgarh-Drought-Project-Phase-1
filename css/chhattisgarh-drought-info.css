@@ -51,6 +51,7 @@ h6 {
 
 a:-webkit-any-link {
   text-decoration-line: none;
+  font-weight: 600;
   color: -webkit-link;
   cursor: pointer;
 }
