@@ -232,24 +232,24 @@ $('.').on('mouseenter mouseleave', function() {
           </div>
           <div class="number-block">
             <div class="number-wrapper">
-              <h3 class="mild_drought">NA</h3>
+              <h3 class="mild_drought"><b>-/-</b></h3>
               <div class="number-heading">MILD DROUGHT</div>
             </div>
             <div class="number-wrapper">
-              <h3 class="large_drought">NA</h3>
+              <h3 class="large_drought"><b>-/-</b></h3>
               <div class="number-heading">LARGE DROUGHT</div>
             </div>
             <div class="number-wrapper">
-              <h3 class="severe_drought">NA</h3>
+              <h3 class="severe_drought"><b>-/-</b></h3>
               <div class="number-heading">SEVERE DROUGHT</div>
             </div>
             <div class="number-wrapper">
-              <h3 class="disastrous_drought">NA</h3>
+              <h3 class="disastrous_drought"><b>-/-</b></h3>
               <div class="number-heading">DISASTROUS DROUGHT</div>
             </div>
           </div>
           <div class="number-wrapper total">
-            <h3 class="total_drought">NA</h3>
+            <h3 class="total_drought"><b>-/-</b></h3>
             <div class="number-heading">TOTAL DROUGHT</div>
           </div>
         </div>
@@ -274,31 +274,31 @@ $('.map__district').mouseenter(function() {
   $('.mild_drought').text( $(this).attr("mild-drought") );
 });
 $('.map__district').mouseleave(function() {
-  $('.mild_drought').text('NA');
+  $('.mild_drought').text('-/-');
 });
 $('.map__district').mouseenter(function() {
   $('.large_drought').text( $(this).attr("large-drought") );
 });
 $('.map__district').mouseleave(function() {
-  $('.large_drought').text('NA');
+  $('.large_drought').text('-/-');
 });
 $('.map__district').mouseenter(function() {
   $('.severe_drought').text( $(this).attr("severe-drought") );
 });
 $('.map__district').mouseleave(function() {
-  $('.severe_drought').text('NA');
+  $('.severe_drought').text('-/-');
 });
 $('.map__district').mouseenter(function() {
   $('.disastrous_drought').text( $(this).attr("disastrous-drought") );
 });
 $('.map__district').mouseleave(function() {
-  $('.disastrous_drought').text('NA');
+  $('.disastrous_drought').text('-/-');
 });
 $('.map__district').mouseenter(function() {
   $('.total_drought').text( $(this).attr("total-drought") );
 });
 $('.map__district').mouseleave(function() {
-  $('.total_drought').text('NA');
+  $('.total_drought').text('-/-');
 });
 </script>
 </body>
